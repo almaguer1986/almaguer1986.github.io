@@ -1,0 +1,125 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+  padding: 0 3rem 3rem 3rem; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-smedium {
+  margin-bottom: 3rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-top-big {
+  margin-top: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
+
+.bg-video {
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .7;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+  overflow: hidden; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
+.section-stories {
+  position: relative;
+  padding: 15rem 0; }
+  .section-stories h2 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #2EB312; }
+
+.logo {
+  text-align: center;
+  opacity: .6; }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4); }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+
+.header {
+  height: 95vh;
+  background-image: url(../../images/spaceneedle_1.jpg);
+  background-size: cover;
+  background-position: right center;
+  position: relative;
+  opacity: .8; }
+
+.jumbotron {
+  background: none;
+  text-align: center;
+  letter-spacing: 3px;
+  position: relative;
+  top: 20rem;
+  color: #eeeeee;
+  font-size: 3rem; }
+
+#title {
+  text-align: center;
+  height: 17rem;
+  width: 100%;
+  color: #fff;
+  background: linear-gradient(to right bottom, rgba(44, 219, 7, 0.8), rgba(22, 81, 182, 0.8));
+  padding-top: 6rem;
+  letter-spacing: 5px; }
+
+.card-img-top {
+  height: 25rem; }
+
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translate(-55%, 0); }
